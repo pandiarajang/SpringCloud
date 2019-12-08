@@ -1,0 +1,14 @@
+package com.histrix.histrixconsumer;
+
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class GreetingService {
+
+	public String getGreeting(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

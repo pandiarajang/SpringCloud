@@ -1,0 +1,20 @@
+package com.ribbon.providerribbon;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RibbonProviderRestController {
+
+	@RequestMapping("/")
+	public String home() {
+		return "Hello";
+	}
+	
+	@RequestMapping("/message")
+	public String serverMsg() {
+		
+		return "";
+	}
+	
+}

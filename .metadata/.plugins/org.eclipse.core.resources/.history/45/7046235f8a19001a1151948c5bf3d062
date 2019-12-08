@@ -1,0 +1,5 @@
+package com.eureka.eurekaprovider;
+
+public class EurekaProviderController {
+
+}

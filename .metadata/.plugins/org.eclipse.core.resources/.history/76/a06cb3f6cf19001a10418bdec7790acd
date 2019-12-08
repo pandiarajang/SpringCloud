@@ -1,0 +1,13 @@
+package com.histrix.histrixconsumer;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetingService {
+
+	public String getGreeting(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

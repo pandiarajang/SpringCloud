@@ -1,0 +1,4 @@
+server.address==9091
+spring.application.name=zuul-gateway
+eureka.client.fetch-registry=true
+eureka.client.service-url

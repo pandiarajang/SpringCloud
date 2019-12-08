@@ -1,0 +1,13 @@
+package com.histrix.histrixconsumer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HistrixConsumerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HistrixConsumerApplication.class, args);
+	}
+
+}

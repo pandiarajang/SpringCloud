@@ -1,0 +1,10 @@
+package com.eureka.eurekaconsumer;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EurekaConsumerRestController {
+
+	@RequestMapping("/greet1")
+}

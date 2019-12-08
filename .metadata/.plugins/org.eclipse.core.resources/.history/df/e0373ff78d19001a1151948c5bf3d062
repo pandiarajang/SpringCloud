@@ -1,0 +1,5 @@
+package com.eureka.eurekaconsumer;
+
+public class EurekaConsumerRestController {
+
+}

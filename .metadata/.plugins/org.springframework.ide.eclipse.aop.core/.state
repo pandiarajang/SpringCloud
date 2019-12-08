@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="eurekaprovider"/>
+<aop-project name="config-server"/>
+<aop-project name="configclient"/>
+<aop-project name="eurekaserver"/>
+<aop-project name="eurekaconsumer"/>
+</aop-reference-model>

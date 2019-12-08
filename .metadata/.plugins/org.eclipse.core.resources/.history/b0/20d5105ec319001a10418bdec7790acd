@@ -1,0 +1,5 @@
+package com.ribbon.providerribbon;
+
+public class RibbonProviderRestController {
+
+}

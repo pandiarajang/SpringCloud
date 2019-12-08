@@ -1,0 +1,20 @@
+package com.histrix.histrixconsumer;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.netflix.discovery.EurekaClient;
+
+
+@Service
+public class GreetingService {
+
+	@Autowired
+	EurekaClient eurekaClient;
+	
+	public String getGreeting(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

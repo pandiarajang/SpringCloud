@@ -1,0 +1,19 @@
+package com.configserver.configclient.ctlr;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RefreshScope
+@Controller
+public class ConfigClientRestController {
+
+	@Value("{message, Default Message}")
+	private String message;
+	
+	@RequestMapping("/message")
+	public String getMessage() {
+		return message;
+	}
+}

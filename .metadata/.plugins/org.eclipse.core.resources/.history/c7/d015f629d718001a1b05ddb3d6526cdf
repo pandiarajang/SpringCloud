@@ -1,0 +1,4 @@
+spring.application.name=config-client
+spring.profiles.active=development
+spring.cloud.config.ui=http://localhost:8888
+management.security.enabled=faluse

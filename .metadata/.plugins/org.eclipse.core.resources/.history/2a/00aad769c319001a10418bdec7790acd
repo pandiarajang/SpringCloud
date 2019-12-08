@@ -1,0 +1,13 @@
+package com.ribbon.providerribbon;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProviderRibbonApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProviderRibbonApplication.class, args);
+	}
+
+}

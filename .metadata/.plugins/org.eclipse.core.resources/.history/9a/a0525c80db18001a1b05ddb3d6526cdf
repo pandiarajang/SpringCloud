@@ -1,0 +1,5 @@
+package com.configserver.configclient.ctlr;
+
+public class ConfigClientRestController {
+
+}
